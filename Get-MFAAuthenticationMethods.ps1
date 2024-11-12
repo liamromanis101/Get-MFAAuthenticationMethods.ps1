@@ -1,4 +1,5 @@
 # Connect to Microsoft Graph with appropriate permissions (requires admin consent)
+# Liam Romanis 2024
 Connect-MgGraph -Scopes "User.Read.All", "UserAuthenticationMethod.Read.All"
 # Initialize an array to store output data
 $outputData = @()
