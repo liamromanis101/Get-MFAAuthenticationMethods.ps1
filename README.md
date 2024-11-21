@@ -2,7 +2,7 @@
 Gets a full list  of users in an Azure tenant, then enumerates supported Authentication methods including the full range of MFA authentication methods. It prints the results to the screen and into a CSV file for reporting. 
 
 # Usage
-1. An Azure/M365 account with global read permissions [User.Read.All & UserAuthenticationMethod.Read.Al]. 
+1. An Azure/M365 account with global read permissions [User.Read.All & UserAuthenticationMethod.Read.All]. 
 2. Check Microsoft Entra Privileged Identity to make sure you activate any just in time permissions.
 3. Get a PowerShell shell. 
 4. run "Install-Module Microsoft.Graph -Scope CurrentUser -Force -AllowClobber"
